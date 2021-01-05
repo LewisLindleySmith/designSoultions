@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  --primary-color: #8cd1df;
+  --secondary-color: #ffcdab;
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+img {
+  width: 100%;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #3f3f3f;
+  margin-top: 0.625rem;
+  padding: 0.625rem 0.9375rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: #74afbb;
+  color: #333;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: #ddb69d;
+  color: #333;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
