@@ -146,3 +146,31 @@ img {
 .hero * {
   z-index: 1;
 }
+
+/* About Icons Section */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  margin-bottom: 1rem;
+}
+
+.icons i {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-items > div {
+  padding: 10px 30px;
+}
