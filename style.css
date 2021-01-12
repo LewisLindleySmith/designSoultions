@@ -241,3 +241,24 @@ img {
 .team p {
   margin-bottom: 1rem;
 }
+
+/* Services Section */
+.section-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 3px solid var(--primary-color);
+  height: 100%;
+  border-radius: 20%;
+}
+
+.services .row-reverse {
+  flex-direction: row-reverse;
+}
+
+.services .row-reverse:last-child {
+  margin-bottom: 1rem;
+}
