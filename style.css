@@ -174,3 +174,49 @@ img {
 .flex-items > div {
   padding: 10px 30px;
 }
+
+/* History Section */
+.flex-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-columns .column .column-2 h3 {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+.flex-columns .column .column-2 h4 {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+.flex-columns .column .column-2 p {
+  padding: 1rem 2rem;
+}
