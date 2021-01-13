@@ -1,3 +1,5 @@
 # designSoultions
 
-This is a homepage site for my Github repo.
+This is a homepage test site for a design company.
+
+It has been made using HTML, CSS and jQuery.
